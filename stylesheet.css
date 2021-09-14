@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+   html,body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,div {
+    margin: 0;
+    padding: 0;
+  }
+   body {
+    font-family: "Lucida Grande";
+  }
+   a {
+    text-decoration: none;
+  }
+   .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+   .fa {
+    margin-right: 5px;
+  }
+   header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+    .header-left {
+    float: left;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+ table {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+ 
+  fieldset {
+    width: 580px;
+    height: 640px;
+    border-radius: 30px;
+    /*background-image: url(bcg2.jpg);*/
+    background-color: rgba(18, 126, 76, 0.685);
+  }
+  td {
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration-style: solid ;
+  }
+  input {
+    width: 180px;
+    height: 25px;
+    border-radius: 5px;
+    outline: black;
+    text-indent: 5px;
+
+  }
+  fieldset {
+    margin-top: 46px;
+  }
+  input[type="submit"]:hover {
+    background-color:rgb(10, 215, 230);
+  }
+  input[type="reset"]:hover {
+    background-color:rgb(10, 215, 230);
+  }
+  textarea {
+    width: 180px;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 5px;
+  }
+  table{
+    line-height: 50px;
+  }
+  form {
+    background-image: url(bcg2.jpg);
+    
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+ 
+  
+
+  .fa-linkedin {
+    background: rgb(10, 41, 219);
+    color: white;
+    border-radius: 25px;
+    
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 25px;
+  }
+ 
+  .fa-instagram {
+    background: rgb(190, 10, 40);
+    color: white;
+    border-radius: 25px;
+  }  
+footer {
+  color: whitesmoke;
+  background-color: black;
+}
+
+ 

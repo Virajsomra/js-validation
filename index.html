@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <h1>Survey World</h1>
+          <h4>Take Surveys.Create Surveys.</h4>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="#">Create a survey</a>
+          <a href="#" class="login">Log in</a>
+        </div>
+      </div>
+    </header>
+    <center>
+    <form>
+      <fieldset>
+        <table>
+          <b><h1>Complete this survey</h1></b>
+          <h4>Write your views on the last workshop or event you attended and share your experience. </h4>
+          <tr>
+           <td><b>Name :</b></td>
+           <td><input type="text" name="kyz" id="name" placeholder="Enter your name" required></td>
+          </tr>
+          <tr>
+            <td><b>Email-id :</b></td>
+            <td><input type="email" name="kyz" id="vir" placeholder="Enter your Email-id" required></td>
+           </tr>
+           <tr>
+            <td><b>Contact no. :</b></td>
+            <td><input type="text" pattern="[1-9]{1}[0-9]{9}" minlenght="10" maxlength="10" name="kyz" id="vir" placeholder="Enter your number" required></td>
+           </tr>
+           <tr>
+            <td><b>Password :</b></td>
+            <td><input type="password" name="kyz" id="password" placeholder="Enter your Password" required></td>
+           </tr>
+           <tr>
+            <td><b>Share your experience :</b></td>
+            <td><textarea rows="5" cols="21" name="" id="" placeholder="Share your experience with us."></textarea></td>
+           </tr>
+            <td><b>Complaints , if any :</b></td>
+            <td><textarea rows="5" cols="21" name="" id="" placeholder="Write your complaints here , if any."></textarea></td>
+           </tr>
+           <tr>
+            <td><input type="submit" value="SEND" style="width: 180px; height: 35px;" name="" id="" onclick="validate();"></td>
+            
+            <td><input type="reset" value="RESET" style="width: 180px; height: 35px;" name="" id=""></td>
+           </tr>
+        </table>
+      </fieldset>
+    </form>
+      </center>
+      <footer>
+        <h4>Reach us at :</h4>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="https://www.linkedin.com/in/viraj-somra-183644192/" class="fa fa-linkedin" ></a>
+        <a href="https://twitter.com/Viraj17267677" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/virajsomra/" class="fa fa-instagram"></a>
+      </footer>
+      <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
